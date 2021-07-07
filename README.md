@@ -15,14 +15,17 @@ Url: http://localhost:3000/.
 
 ## Acessando publicação da aplicação
 
-Acessar a url: https://take-server-55n5n4qg6-pedromontemor.vercel.app/
+Acessar a url: https://take-server.vercel.app/
 
 ## Endpoints
 
-### /api/books - Retorna listagem de livros
+### /api/contacts - Retorna listagem de contatos
 |query param|descrição|
 |---|---|
-|title|busca livros que contenham parte do parâmetro no título
+|name|busca contatos que contenham parte do parâmetro no nome
+
+### /api/contact/:shortName - Retorna contato por shortName
+
 
 ## Frontend
 
